@@ -1,8 +1,12 @@
 {
-  "name": "@hotel-management/source",
+  "name": "web",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "private": true,
   "devDependencies": {
     "@nx/esbuild": "^22.6.5",

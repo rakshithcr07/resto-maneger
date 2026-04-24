@@ -46,7 +46,7 @@ export function Sidebar() {
           <UtensilsCrossed size={24} />
         </div>
         <div>
-          <h1 className="text-xl font-bold tracking-tight text-foreground">RestroBit</h1>
+          <h1 className="text-xl font-bold tracking-tight text-foreground">BhojAI</h1>
         </div>
       </div>
 

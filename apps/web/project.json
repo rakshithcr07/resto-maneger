@@ -11,13 +11,15 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/web",
-        "outputPath": "dist/apps/web"
+        "outputPath": "apps/web/.next"
       },
       "configurations": {
         "development": {
           "outputPath": "apps/web/.next"
         },
-        "production": {}
+        "production": {
+          "outputPath": "apps/web/.next"
+        }
       }
     },
     "serve": {

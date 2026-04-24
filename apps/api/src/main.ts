@@ -26,6 +26,7 @@ app.use(express.json());
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 // Health check (Public)
 app.get('/api/health', (req, res) => {
+  console.log('Health check ping received');
   res.send({ message: 'API is healthy', status: 'ok', timestamp: new Date() });
 });
 
